@@ -1,0 +1,25 @@
+body{
+    font-family: arial ,sans-serif;
+    margin: 20px;
+}
+section{
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+align-items: center;
+}
+h2{
+    color: #333;
+}
+ol{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+li:last child{
+    border-bottom: none;
+}
