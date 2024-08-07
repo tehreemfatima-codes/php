@@ -16,4 +16,14 @@ $conn->close();
     <input type="text" placeholder="name" name="name"><br><br>
     <input type="text" placeholder="email" name="email"><br><br>
     <input type="submit"  name="submit"><br><br>
+       delete it = document.getElementsByClassName("delete");
+        Array.from(delete it).forEach((insert) => {
+            insert.addEventListener("click", (i) => {
+                sno = i.target.id;
+                if (confirm("want to delete?")) {
+                    window.location = `/insert.php=${sno}`;
+                }
+            });
+        });
+    </script>
 </form>
